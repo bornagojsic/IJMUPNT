@@ -1,0 +1,75 @@
+{
+  "title": "Analiza javnog mnijenja o sigurnosti SMR tehnologije i prihvatljivosti izgradnje u blizini mjesta stanovanja",
+  "team_members": [
+    "Ivan Draženović",
+    "Mateo Držanić",
+    "Ivan Dundović",
+    "Matej Đaković",
+    "Lovro Đuranec",
+    "Darko Erceg",
+    "Andro Filić",
+    "Marko Flajsig",
+    "Andro Gabaj",
+    "Kristijan Gašpar",
+    "Borna Gojšić",
+    "Ivan Golubić",
+    "Toni Grdović",
+    "Jakov Gregurić",
+    "Ljubo Grubišić"
+  ],
+  "n_responses": 970,
+  "p9_top_answer": {
+    "Odgovor": "Niži troškovi",
+    "Broj": 154,
+    "Postotak": 16.19
+  },
+  "p10_top_answer": {
+    "Odgovor": "Da",
+    "Broj": 560,
+    "Postotak": 59.01
+  },
+  "significant_tests": [
+    {
+      "Ključ 1": "spol",
+      "Ključ 2": "p9_kratko",
+      "Varijabla 1": "Spol",
+      "Varijabla 2": "P9",
+      "Hi-kvadrat": 75.888,
+      "df": 3,
+      "p-vrijednost": 0.0,
+      "Cramér V": 0.283,
+      "Najmanja očekivana frekvencija": 69.09,
+      "Slika": "povezanost_spol_p9_kratko",
+      "Spojene kategorije": "",
+      "Napomena": ""
+    },
+    {
+      "Ključ 1": "obrazovanje",
+      "Ključ 2": "p10_kratko",
+      "Varijabla 1": "Obrazovanje",
+      "Varijabla 2": "P10",
+      "Hi-kvadrat": 19.111,
+      "df": 8,
+      "p-vrijednost": 0.01428,
+      "Cramér V": 0.1,
+      "Najmanja očekivana frekvencija": 0.4,
+      "Slika": "povezanost_obrazovanje_p10_kratko",
+      "Spojene kategorije": "",
+      "Napomena": "Oprez: dio očekivanih frekvencija je manji od 5."
+    },
+    {
+      "Ključ 1": "p9_kratko",
+      "Ključ 2": "p10_kratko",
+      "Varijabla 1": "P9",
+      "Varijabla 2": "P10",
+      "Hi-kvadrat": 191.381,
+      "df": 6,
+      "p-vrijednost": 0.0,
+      "Cramér V": 0.318,
+      "Najmanja očekivana frekvencija": 12.2,
+      "Slika": "povezanost_p9_kratko_p10_kratko",
+      "Spojene kategorije": "",
+      "Napomena": ""
+    }
+  ]
+}

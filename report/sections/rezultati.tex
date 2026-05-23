@@ -1,0 +1,80 @@
+\section{Rezultati}
+
+\subsection{Struktura ispitanika}
+
+Struktura ispitanika prikazana je kroz osnovne demografske raspodjele. Detaljne tablice generiraju se iz analitičke skripte i nalaze se u direktoriju \texttt{report/tables/}.
+
+\begin{table}[H]
+\centering
+\caption{Raspodjela ispitanika prema spolu}
+\input{tables/spol_frekvencije.tex}
+\end{table}
+
+\begin{table}[H]
+\centering
+\caption{Raspodjela ispitanika prema dobi}
+\input{tables/dob_frekvencije.tex}
+\end{table}
+
+\subsection{P9: najveća percipirana prednost SMR tehnologije}
+
+Pitanje P9 ispituje što ispitanici smatraju najvećom prednošću SMR tehnologije. Rezultati su prikazani u tablici \ref{tab:p9} i na slici \ref{fig:p9}.
+
+\begin{table}[H]
+\centering
+\caption{Frekvencije odgovora na pitanje P9}
+\label{tab:p9}
+\input{tables/p9_frekvencije.tex}
+\end{table}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.9\textwidth]{p9_odgovori.pdf}
+\caption{Raspodjela odgovora na pitanje P9}
+\label{fig:p9}
+\end{figure}
+
+\subsection{P10: stav prema državnim subvencijama}
+
+Pitanje P10 ispituje smatraju li ispitanici opravdanim državnu subvenciju razvoja SMR tehnologije umjesto ulaganja u jednu klasičnu veliku nuklearnu elektranu. Rezultati su prikazani u tablici \ref{tab:p10} i na slici \ref{fig:p10}.
+
+\begin{table}[H]
+\centering
+\caption{Frekvencije odgovora na pitanje P10}
+\label{tab:p10}
+\input{tables/p10_frekvencije.tex}
+\end{table}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.9\textwidth]{p10_odgovori.pdf}
+\caption{Raspodjela odgovora na pitanje P10}
+\label{fig:p10}
+\end{figure}
+
+\subsection{Demografske usporedbe i statistički testovi}
+
+Za pitanja P9 i P10 provedene su usporedbe prema spolu, dobi, obrazovanju, zaposlenosti i županiji. Sažetak hi-kvadrat testova prikazan je u tablici \ref{tab:testovi}. U konačnoj interpretaciji naglasak treba staviti na statistički značajne i sadržajno relevantne povezanosti.
+
+Prije provedbe hi-kvadrat testova kategorije s manje od pet opažanja spojene su u zajedničku kategoriju \textit{Ostalo (<5)}. Time se smanjuje utjecaj vrlo rijetkih kategorija na testnu statistiku i dobiva stabilnija procjena povezanosti.
+
+\begin{table}[H]
+\centering
+\caption{Rezultati hi-kvadrat testova neovisnosti}
+\label{tab:testovi}
+\resizebox{\textwidth}{!}{\input{tables/hi_kvadrat_testovi.tex}}
+\end{table}
+
+\subsection{Grafički prikaz statistički značajnih povezanosti}
+
+\input{sections/generated_significant_associations}
+
+\subsection{Povezanost odgovora na P9 i P10}
+
+Križna tablica odgovora na P9 i P10 prikazuje jesu li stavovi o glavnoj prednosti SMR tehnologije povezani sa stavom prema državnom subvencioniranju razvoja te tehnologije.
+
+\begin{table}[H]
+\centering
+\caption{Križna tablica odgovora P9 i P10}
+\resizebox{\textwidth}{!}{\input{tables/p9_p10_krizna_tablica.tex}}
+\end{table}
