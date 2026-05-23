@@ -32,3 +32,51 @@ Ponuđeni odgovori:
 \caption{Legenda skraćenih oznaka korištenih u grafikonima}
 \input{tables/legenda_oznaka.tex}
 \end{table}
+
+\newpage
+
+\section{Pseudokod statističke analize}
+
+U ovom dodatku prikazan je sažeti pseudokod stvarne statističke analize provedene nad anketnim podacima. Izostavljeni su tehnički dijelovi programa koji se odnose samo na spremanje datoteka, oblikovanje grafova i pripremu izlaza za izvještaj.
+
+Analiza se temelji na opisnoj statistici i hi-kvadrat testovima nezavisnosti. Opisna statistika korištena je za prikaz raspodjele odgovora, dok su hi-kvadrat testovi korišteni za provjeru postoji li statistički značajna povezanost između demografskih obilježja i odgovora na pitanja P9 i P10 te između samih odgovora na pitanja P9 i P10.
+
+\begin{enumerate}[label=\textbf{Korak \arabic*:}, leftmargin=*]
+  \item Učitati anketne podatke iz Excel datoteke.
+  \item Odabrati varijable korištene u analizi:
+  \begin{itemize}[nosep]
+    \item demografske varijable: županija, spol, dob, obrazovanje i zaposlenost,
+    \item odgovore na pitanja P9 i P10.
+  \end{itemize}
+  \item Očistiti tekstualne odgovore uklanjanjem suvišnih razmaka i praznih vrijednosti.
+  \item Za pitanja P9 i P10 zamijeniti duge tekstualne odgovore kraćim oznakama radi preglednijeg prikaza u tablicama i grafovima.
+  \item Za svaku analiziranu varijablu izračunati frekvencijsku tablicu:
+  \[
+    \text{postotak kategorije} = \frac{\text{broj odgovora u kategoriji}}{\text{ukupan broj valjanih odgovora}} \cdot 100.
+  \]
+  \item Definirati parove varijabli za testiranje povezanosti:
+  \begin{itemize}[nosep]
+    \item svaka demografska varijabla s pitanjem P9,
+    \item svaka demografska varijabla s pitanjem P10,
+    \item pitanje P9 s pitanjem P10.
+  \end{itemize}
+  \item Za svaki par varijabli ukloniti zapise u kojima nedostaje odgovor na barem jednu od te dvije varijable.
+  \item Prije testiranja spojiti kategorije koje imaju manje od pet opažanja u zajedničku kategoriju \textit{Ostalo (<5)}. Time se smanjuje rizik nepouzdanih rezultata zbog vrlo malih očekivanih frekvencija.
+  \item Izraditi kontingencijsku tablicu za promatrani par varijabli.
+  \item Ako barem jedna varijabla nakon čišćenja ima manje od dvije kategorije, preskočiti hi-kvadrat test za taj par jer test nije smislen.
+  \item Inače provesti hi-kvadrat test nezavisnosti nad kontingencijskom tablicom:
+  \[
+    \chi^2 = \sum \frac{(O - E)^2}{E},
+  \]
+  gdje je $O$ opažena frekvencija, a $E$ očekivana frekvencija uz pretpostavku nezavisnosti varijabli.
+  \item Za svaki provedeni test zabilježiti vrijednost $\chi^2$, broj stupnjeva slobode, $p$-vrijednost i najmanju očekivanu frekvenciju.
+  \item Izračunati Cramérov $V$ kao mjeru jačine povezanosti:
+  \[
+    V = \sqrt{\frac{\chi^2}{n \cdot \min(r - 1, k - 1)}},
+  \]
+  gdje je $n$ ukupan broj opažanja u kontingencijskoj tablici, $r$ broj redaka, a $k$ broj stupaca.
+  \item Parove varijabli smatrati statistički značajno povezanima ako je $p < 0{,}05$.
+  \item Za statistički značajne parove izraditi grafički prikaz postotaka po retku kako bi se vidjelo kako se raspodjela odgovora mijenja između kategorija prve varijable.
+\end{enumerate}
+
+Rezultati dobiveni ovim postupkom korišteni su u glavnom dijelu izvještaja za tablice frekvencija, tablicu hi-kvadrat testova i prikaze statistički značajnih povezanosti.

@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.24.0 (TeX Live 2026/Arch Linux)  (format=lualatex 2026.4.26)  23 MAY 2026 16:18
+This is LuaHBTeX, Version 1.24.0 (TeX Live 2026/Arch Linux)  (format=lualatex 2026.4.26)  23 MAY 2026 17:13
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -1135,95 +1135,104 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
  (./main.nav) [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (109.68071pt too wide) in paragraph at lines 73--73
-[][]  
- []
+<figures/smr_diagram.jpg, id=49, 684.30656pt x 523.9575pt>
+File: figures/smr_diagram.jpg Graphic file (type jpg)
+<use figures/smr_diagram.jpg>
+Package luatex.def Info: figures/smr_diagram.jpg  used on input line 76.
+(luatex.def)             Requested size: 151.4981pt x 115.99854pt.
 
 [2
 
-]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 95.
+<./figures/smr_diagram.jpg>]
+LaTeX Font Info:    Trying to load font information for U+msa on input line 98.
 
- (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
+
+(/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 95.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 98.
 
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 95.
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 98.
 LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <8> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 95.
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 98.
 LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <6> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 95.
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 98.
  [3
 
 ]
-<figures/p9_odgovori.pdf, id=77, 650.43pt x 375.804pt>
+<figures/p9_odgovori.pdf, id=78, 650.43pt x 375.804pt>
 File: figures/p9_odgovori.pdf Graphic file (type pdf)
 <use figures/p9_odgovori.pdf>
-Package luatex.def Info: figures/p9_odgovori.pdf  used on input line 100.
+Package luatex.def Info: figures/p9_odgovori.pdf  used on input line 103.
 (luatex.def)             Requested size: 381.34491pt x 220.33473pt.
 
-Overfull \vbox (8.08208pt too high) detected at line 100
+Overfull \vbox (8.08208pt too high) detected at line 103
  []
 
 [4
 
 <./figures/p9_odgovori.pdf>]
-<figures/p10_odgovori.pdf, id=157, 650.43pt x 375.804pt>
+<figures/p10_odgovori.pdf, id=158, 650.43pt x 375.804pt>
 File: figures/p10_odgovori.pdf Graphic file (type pdf)
 <use figures/p10_odgovori.pdf>
-Package luatex.def Info: figures/p10_odgovori.pdf  used on input line 105.
+Package luatex.def Info: figures/p10_odgovori.pdf  used on input line 108.
 (luatex.def)             Requested size: 381.34491pt x 220.33473pt.
 
-Overfull \vbox (8.08208pt too high) detected at line 105
+Overfull \vbox (8.08208pt too high) detected at line 108
  []
 
 [5
 
-<./figures/p10_odgovori.pdf>]
-<figures/povezanost_spol_p9_kratko.pdf, id=244, 578.16pt x 346.896pt>
+<./figures/p10_odgovori.pdf>] [6
+
+]
+<figures/povezanost_spol_p9_kratko.pdf, id=250, 578.16pt x 346.896pt>
 File: figures/povezanost_spol_p9_kratko.pdf Graphic file (type pdf)
 <use figures/povezanost_spol_p9_kratko.pdf>
 Package luatex.def Info: figures/povezanost_spol_p9_kratko.pdf  used on input l
-ine 122.
-(luatex.def)             Requested size: 212.34097pt x 127.40202pt.
-<figures/povezanost_obrazovanje_p10_kratko.pdf, id=245, 578.16pt x 397.485pt>
+ine 133.
+(luatex.def)             Requested size: 199.59773pt x 119.75864pt.
+<figures/povezanost_obrazovanje_p10_kratko.pdf, id=251, 578.16pt x 397.485pt>
 File: figures/povezanost_obrazovanje_p10_kratko.pdf Graphic file (type pdf)
 <use figures/povezanost_obrazovanje_p10_kratko.pdf>
 Package luatex.def Info: figures/povezanost_obrazovanje_p10_kratko.pdf  used on
- input line 122.
-(luatex.def)             Requested size: 212.34097pt x 145.98148pt.
- [6
+ input line 133.
+(luatex.def)             Requested size: 199.59773pt x 137.22345pt.
+ [7
 
 <./figures/povezanost_spol_p9_kratko.pdf><./figures/povezanost_obrazovanje_p10_k
-ratko.pdf>] [7
+ratko.pdf>] [8
 
 ]
-<figures/povezanost_p9_kratko_p10_kratko.pdf, id=446, 578.16pt x 346.896pt>
+<figures/povezanost_p9_kratko_p10_kratko.pdf, id=451, 578.16pt x 346.896pt>
 File: figures/povezanost_p9_kratko_p10_kratko.pdf Graphic file (type pdf)
 <use figures/povezanost_p9_kratko_p10_kratko.pdf>
 Package luatex.def Info: figures/povezanost_p9_kratko_p10_kratko.pdf  used on i
-nput line 138.
+nput line 151.
 (luatex.def)             Requested size: 359.67638pt x 215.80374pt.
 
-Overfull \vbox (3.55109pt too high) detected at line 138
- []
-
-[8
-
-<./figures/povezanost_p9_kratko_p10_kratko.pdf>]
-Overfull \hbox (109.68071pt too wide) in paragraph at lines 155--155
-[][]  
+Overfull \vbox (3.55109pt too high) detected at line 151
  []
 
 [9
 
+<./figures/povezanost_p9_kratko_p10_kratko.pdf>] [10
+
 ]
+<figures/krsko_nuclear_plant_small.jpg, id=580, 278.7557pt x 185.83714pt>
+File: figures/krsko_nuclear_plant_small.jpg Graphic file (type jpg)
+<use figures/krsko_nuclear_plant_small.jpg>
+Package luatex.def Info: figures/krsko_nuclear_plant_small.jpg  used on input l
+ine 200.
+(luatex.def)             Requested size: 109.6543pt x 73.10286pt.
+ [11
+
+<./figures/krsko_nuclear_plant_small.jpg>]
 \tf@nav=\write6
 
 \openout6 = main.nav
@@ -1243,26 +1252,27 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 )
 
 Here is how much of LuaTeX's memory you used:
- 28890 strings out of 476076
+ 28928 strings out of 476076
  100000,1144653 words of node,token memory allocated
- 7499 words of node memory still in use:
-   92 hlist, 16 vlist, 9 rule, 42 disc, 9 local_par, 187 glue, 22 kern, 24 penal
-ty, 271 glyph, 554 attribute, 61 glue_spec, 278 attribute_list, 4 write, 117 pdf
-_literal, 36 pdf_colorstack nodes
-   avail lists: 2:1030,3:477,4:214,5:95,6:35,7:1562,8:1,9:403,10:14,11:139
- 50461 multiletter control sequences out of 65536+600000
+ 11451 words of node memory still in use:
+   121 hlist, 17 vlist, 12 rule, 85 disc, 13 local_par, 262 glue, 43 kern, 38 pe
+nalty, 551 glyph, 690 attribute, 61 glue_spec, 346 attribute_list, 4 write, 140 
+pdf_literal, 46 pdf_colorstack, 1 pdf_setmatrix, 1 pdf_save, 1 pdf_restore nodes
+
+   avail lists: 2:991,3:377,4:210,5:114,6:34,7:1736,8:1,9:391,10:15,11:171
+ 50489 multiletter control sequences out of 65536+600000
  48 fonts using 3810727 bytes
- 128i,11n,116p,378b,1046s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 128i,11n,116p,378b,1021s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/opentype/public/lm/lmsans10-oblique.otf></usr/share
 /texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf></usr/share/texmf-dist
 /fonts/opentype/public/lm/lmsans8-regular.otf></usr/share/texmf-dist/fonts/opent
 ype/public/lm/lmsans10-regular.otf></usr/share/texmf-dist/fonts/opentype/public/
 lm/lmsans12-regular.otf></usr/share/texmf-dist/fonts/opentype/public/lm/lmsans10
--bold.otf></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on main.pdf (9 pages, 155682 bytes).
+-bold.otf>
+Output written on main.pdf (11 pages, 1434296 bytes).
 
-PDF statistics: 594 PDF objects out of 1000 (max. 8388607)
- 179 compressed objects within 2 object streams
- 19 named destinations out of 1000 (max. 1048576)
- 406 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 641 PDF objects out of 1000 (max. 8388607)
+ 204 compressed objects within 3 object streams
+ 23 named destinations out of 1000 (max. 1048576)
+ 586 words of extra memory for PDF output out of 10000 (max. 100000000)
 

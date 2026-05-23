@@ -14,3 +14,4 @@
 \contentsline {subsection}{\numberline {A.1}Pitanje P9}{13}{subsection.A.1}%
 \contentsline {subsection}{\numberline {A.2}Pitanje P10}{13}{subsection.A.2}%
 \contentsline {subsection}{\numberline {A.3}Legenda skraćenih oznaka}{13}{subsection.A.3}%
+\contentsline {section}{\numberline {B}Pseudokod statističke analize}{14}{appendix.B}%
